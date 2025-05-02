@@ -6,4 +6,4 @@ A docker setup to mine [Verus coin](https://verus.io/) using [Hellminer](https:/
 * Go to the cloned repo folder and modify the PUBLIC_VERUS_COIN_ADDRESS in docker-compose.yml to be your public Verus coin address.
 * In terminal, run `docker-compose build` inside the repo.
 * Then run `docker-compose run linux bash`
-* Run `./mine.sh` and mining begins! Go to url https://luckpool.net/verus/miner.html?REPLACE_THIS_WITH_YOUR_PUBLIC_VERUS_COIN_ADDRESS to check your mining progress. (Take a couple minutes to show up in the website)
+* Run `./mine.sh` and mining begins! Go to url https://luckpool.net/verus/miner.html?RX5n2uXKnZw3Y5kziJZzzk7DvwHqN6hshv to check your mining progress. (Take a couple minutes to show up in the website)
