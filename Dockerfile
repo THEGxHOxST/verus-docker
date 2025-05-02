@@ -4,4 +4,4 @@ WORKDIR /home
 RUN wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64.tar.gz
 RUN gunzip hellminer_linux64.tar.gz
 RUN tar -xvf hellminer_linux64.tar
-RUN sed -i 's/RX5n2uXKnZw3Y5kziJZzzk7DvwHqN6hshv/$PUBLIC_VERUS_COIN_ADDRESS/' mine.sh
+RUN sed -i 's/ADDRESS.WORKER/$PUBLIC_VERUS_COIN_ADDRESS/' run_miner.sh
